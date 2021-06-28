@@ -1,0 +1,9 @@
+Observations from dataset:
+The variables of great significance in deciding the number of bicycles rented are: 
+1. Month - The month number 3,4,5 have much more count than all the other months.
+2. Weather - The weather (1) has great correlation with the variable cnt which can be seen as obvious outcome for a good weather.
+3. The other notable variables with high correlation were Temperature and weekday (weekends had higher cnt) 
+
+Also I have built two models for the assignment.
+A basiv linear regression model and an advanced tree based model (XGBoost) which provides a superior performance.
+
